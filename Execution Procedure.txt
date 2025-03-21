@@ -1,0 +1,28 @@
+INSTALLATIONS:
+
+INSTALL PYTHON VERSION 3.11, IF U ARE USING HIGHER VERSION UNINSTALL AND INSTALL Python 3.11
+> You can check the version by executing "python --version" on CMD.
+
+INSTALL VS CODE
+> After installing VS Code, install the python debugger extension within the VS Code.
+
+INSTALL LIBRARIES IN CMD
+> pip install flask
+> pip install keras
+> pip install tensorflow (ONLY Works in python version 3.9 - 3.11)
+> pip install pillow
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+PROJECT EXECUTION:
+
+- Open the whole "Deep Learning Based 3D Reconstruction of Blood Cells" folder in VS Code.
+- Run and Debug "app.py"
+- Open "http://127.0.0.1:5000/" on web browser (CHROME PREFERRED)
+- Upload the image that is in the following folder: "Deep Learning Based 3D Reconstruction of Blood Cells > static > uploads"
+- Press the "predict" button
+- Press Generate 3d model button.
+- Maximize the image for best view.
+
+Happy Coding !!!!! ;)
+
