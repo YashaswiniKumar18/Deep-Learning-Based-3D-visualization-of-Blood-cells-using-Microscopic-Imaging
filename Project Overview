@@ -1,0 +1,6 @@
+The proposed system integrates deep learning-based classification with 3D visualization to enhance both the accuracy and interactivity of white blood cell (WBC) analysis. 
+Traditional WBC classification methods often rely on manual examination, which can be subjective and time-consuming.
+By leveraging Convolutional Neural Networks (CNNs) for classification and Blender-based 3D modeling, the system provides an advanced approach for medical diagnostics and educational applications.
+The integration of artificial intelligence in medical imaging has revolutionized diagnostic processes, especially in fields like hematology, 
+where identifying different types of blood cells is crucial for diagnosing a range of health conditions.
+The project is mainly focused on identifying and providing an interactive 3D Visualization of four main types of white blood cells - Lymphocytes, Monocytes, Neutrophils, and Eosinophils using Microscopic Images.
