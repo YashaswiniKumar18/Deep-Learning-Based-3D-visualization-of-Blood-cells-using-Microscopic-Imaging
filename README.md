@@ -1,0 +1,13 @@
+## Deep Learning based 3D visualization of Blood cells using Microscopic Imaging
+Blood cell analysis plays a crucial role in diagnosing various medical conditions, including infections, immune disorders, and blood-related diseases. 
+White blood cells (WBCs) are a fundamental component of the immune system, and their classification into different types – Lymphocytes, Monocytes, Neutrophils, and Eosinophils—is essential for accurate medical diagnosis. 
+Traditional methods of blood cell classification rely on manual microscopic examination by pathologists, which is time-consuming, labour-intensive, and prone to human error. To overcome these limitations, automated image classification using deep learning techniques has emerged as a powerful solution.
+This project introduces a deep learning-based 3D visualization system for blood cells, designed to enhance both medical diagnostics and biological education. 
+The core of the system utilizes a Convolutional Neural Network (CNN) trained to classify white blood cells based on microscopic images. 
+The model effectively differentiates between Lymphocytes, Monocytes, Neutrophils, and Eosinophils by extracting unique morphological features from the images. 
+To further extend its functionality, 3D models of these blood cells were developed using Blender, providing an interactive visualization that helps in understanding their structure in detail.
+Beyond classification, this project introduces an innovative 3D visualization component, which enhances the understanding of blood cell morphology. Using Blender, 3D models of Lymphocytes, Monocytes, Neutrophils, and Eosinophils have been developed to provide an interactive and immersive learning experience. Unlike traditional 2D microscopic images, 
+these 3D models allow users to explore cellular structures from multiple perspectives, improving both educational engagement and diagnostic insights. 
+Medical professionals can use these visualizations to study the intricate details of WBCs, while students and researchers can gain a deeper understanding of their structural differences.
+To ensure accessibility and real-time analysis, the system is integrated into a web-based application using a Flask backend. Users can upload microscopic images of blood smears, receive predictions through the CNN model, and interact with the corresponding 3D visualization of the detected cell type.
+This integration of AI-driven classification with interactive 3D modeling enhances both diagnostic accuracy and the educational experience, making it a valuable tool for medical professionals, researchers, and students alike.
